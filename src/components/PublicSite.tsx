@@ -475,25 +475,13 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
 
             <div className="flex flex-wrap items-center justify-center gap-4">
               <motion.a
-                href="mailto:nomad@example.com"
+                href="mailto:contact@itsnomad.lol"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl shadow-lg hover:shadow-xl transition-shadow flex items-center gap-2"
               >
                 <Mail className="w-5 h-5" />
                 Email Me
-              </motion.a>
-
-              <motion.a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-card border border-border text-foreground rounded-xl hover:bg-muted transition-colors flex items-center gap-2"
-              >
-                <Github className="w-5 h-5" />
-                GitHub
               </motion.a>
             </div>
           </motion.div>
@@ -508,7 +496,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
                 <Rocket className="w-4 h-4 text-white" />
               </div>
-              <span className="text-muted-foreground">© 2024 itsnomad.lol</span>
+              <span className="text-muted-foreground">© 2025 itsnomad.lol</span>
             </div>
 
             <div className="flex items-center gap-2 text-muted-foreground">
