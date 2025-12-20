@@ -213,8 +213,8 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              A <span className="text-primary">Roblox scripter</span> creating immersive experiences 
-              through <span className="text-secondary">Lua</span> and creative problem-solving
+              A <span className="text-primary">Full Stack Programmer</span> creating immersive experiences 
+              through <span className="text-secondary">React</span> and creative problem-solving
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
@@ -242,7 +242,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
             <div className="mt-12 flex flex-wrap items-center justify-center gap-8">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Code2 className="w-5 h-5 text-primary" />
-                <span>Lua Expert</span>
+                <span>React Expert</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Zap className="w-5 h-5 text-accent" />
@@ -250,7 +250,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Heart className="w-5 h-5 text-secondary" />
-                <span>Player-First Design</span>
+                <span>User-First Design</span>
               </div>
             </div>
           </motion.div>
@@ -274,7 +274,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
                 </span>
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Check out some of my favorite projects that showcase my scripting skills
+                Check out some of my favorite projects that showcase my programming skills
               </p>
             </motion.div>
 
@@ -314,7 +314,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               </span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              A collection of Roblox experiences I've built and contributed to
+              A collection of Websites and projects I've built and contributed to
             </p>
           </motion.div>
 
@@ -384,7 +384,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
             className="bg-card rounded-2xl border border-border p-8 shadow-lg mb-8"
           >
             <p className="text-muted-foreground leading-relaxed whitespace-pre-wrap text-center text-lg">
-              {profile?.bio || "Roblox scripter and adventure seeker 🚀\n\nI specialize in creating engaging gameplay mechanics and optimized systems using Lua. When I'm not scripting, I'm exploring new game design patterns and pushing the boundaries of what's possible in Roblox."}
+              {profile?.bio || "React programmer 🚀\n\nI specialize in creating engaging gameplay mechanics and optimized systems using React. When I'm not programming, I'm exploring new game design patterns and pushing the boundaries of what's possible."}
             </p>
           </motion.div>
 
@@ -399,9 +399,9 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                 <Code2 className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="mb-2">Lua Scripting</h3>
+              <h3 className="mb-2">React Programming</h3>
               <p className="text-muted-foreground text-sm">
-                Expert in Roblox Lua scripting, creating efficient and optimized game mechanics.
+                Expert in React scripting, creating efficient and optimized mechanics.
               </p>
             </motion.div>
 
@@ -416,7 +416,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               </div>
               <h3 className="mb-2">Game Development</h3>
               <p className="text-muted-foreground text-sm">
-                Building immersive Roblox experiences from concept to completion.
+                Building immersive games from concept to completion.
               </p>
             </motion.div>
 
@@ -432,7 +432,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               </div>
               <h3 className="mb-2">Performance</h3>
               <p className="text-muted-foreground text-sm">
-                Focused on optimizing scripts for smooth gameplay and minimal lag.
+                Focused on optimizing code for smooth gameplay and minimal lag.
               </p>
             </motion.div>
 
@@ -448,7 +448,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               </div>
               <h3 className="mb-2">Passion</h3>
               <p className="text-muted-foreground text-sm">
-                Driven by a love for creating fun and engaging player experiences.
+                Driven by a love for creating fun and engaging user experiences.
               </p>
             </motion.div>
           </div>
@@ -469,7 +469,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
               </span>
             </h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Have a Roblox project in mind? Looking for a skilled scripter? 
+              Have a project in mind? Looking for a skilled programmer? 
               Let's create something amazing together!
             </p>
 
@@ -501,7 +501,7 @@ export function PublicSite({ onAdminLogin }: PublicSiteProps) {
 
             <div className="flex items-center gap-2 text-muted-foreground">
               <Sparkles className="w-4 h-4 text-accent" />
-              <span className="text-sm">Built with passion for Roblox</span>
+              <span className="text-sm">Built with passion for programming</span>
               <Sparkles className="w-4 h-4 text-secondary" />
             </div>
 
