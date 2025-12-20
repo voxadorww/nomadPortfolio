@@ -101,8 +101,8 @@ export function PublicPortfolio() {
             </p>
             
             <p className="max-w-2xl mx-auto text-muted-foreground">
-              Crafting immersive experiences through Lua scripting and creative problem-solving.
-              Explore my portfolio of Roblox games and projects below!
+              Crafting immersive websites through React programming and creative problem-solving.
+              Explore my portfolio of websites and projects below!
             </p>
           </motion.div>
 
