@@ -131,7 +131,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
               className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-accent to-primary text-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
             >
               <ExternalLink className="w-5 h-5" />
-              View on Roblox
+              View by link
             </motion.a>
           )}
         </div>
