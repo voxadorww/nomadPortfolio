@@ -86,7 +86,7 @@ export function About() {
             My Story
           </h2>
           <p className="text-muted-foreground leading-relaxed whitespace-pre-wrap">
-            {profile?.bio || 'Roblox scripter and adventure seeker 🚀'}
+            {profile?.bio || 'Full Stack Developer 🚀'}
           </p>
         </motion.div>
 
@@ -101,9 +101,9 @@ export function About() {
             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
               <Code2 className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="mb-2">Lua Scripting</h3>
+            <h3 className="mb-2">React programming</h3>
             <p className="text-muted-foreground text-sm">
-              Expert in Roblox Lua scripting, creating efficient and optimized game mechanics.
+              Expert in React and Tailwind website development
             </p>
           </motion.div>
 
@@ -118,7 +118,7 @@ export function About() {
             </div>
             <h3 className="mb-2">Game Development</h3>
             <p className="text-muted-foreground text-sm">
-              Building immersive Roblox experiences from concept to completion.
+              Building immersive websites from concept to completion.
             </p>
           </motion.div>
 
@@ -133,7 +133,7 @@ export function About() {
             </div>
             <h3 className="mb-2">Performance</h3>
             <p className="text-muted-foreground text-sm">
-              Focused on optimizing scripts for smooth gameplay and minimal lag.
+              Focused on optimizing websites for smooth interaction and minimal lag.
             </p>
           </motion.div>
 
@@ -163,7 +163,7 @@ export function About() {
           <p className="flex items-center justify-center gap-2 flex-wrap">
             <Sparkles className="w-5 h-5 text-accent" />
             <span className="text-muted-foreground">
-              Always exploring new scripting techniques and game mechanics
+              Always exploring new programming techniques and mechanics
             </span>
             <Sparkles className="w-5 h-5 text-secondary" />
           </p>
